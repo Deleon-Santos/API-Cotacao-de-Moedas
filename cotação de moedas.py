@@ -15,6 +15,7 @@ def pegar_cotacoes(codigo_cotacao):
         return None
 
 
+
 #todos os comandos isados depois de "sg" começam com letra maiuscula
 pagina=[
     [sg.Text("Pegar Cotação da Moeda")],#texto da janela
