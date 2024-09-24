@@ -9,13 +9,14 @@ Este é um projeto simples para buscar a cotação de moedas utilizando uma API 
 - **Interface Gráfica Simples**: Usamos `PySimpleGUI` para criar uma interface intuitiva e fácil de usar.
 - **Tratamento de Erros**: O sistema lida com erros como moedas não encontradas ou problemas de conexão com a API.
 
-## Tecnologias Usadas
 
-### Bibliotecas:
+### Bibliotecas e tecnologias:
 
-- **[PySimpleGUI](https://pypi.org/project/PySimpleGUI/)**: Utilizada para criar a interface gráfica do usuário.
-- **[Requests](https://pypi.org/project/requests/)**: Biblioteca usada para realizar requisições HTTP para a API de cotações.
-- **[AwesomeAPI](https://docs.awesomeapi.com.br/api-de-moedas)**: Serviço de API usado para obter as cotações das moedas.
+- **![PySimpleGUI](https://img.shields.io/badge/PySimpleGUI-008080?style=for-the-badge&logo=pysimplegui&logoColor=white)** PySimpleGUI
+- **![Requests](https://img.shields.io/badge/Requests-0078D7?style=for-the-badge&logo=python&logoColor=white)** Requests
+- **![AwesomeAPI](https://img.shields.io/badge/AwesomeAPI-4CAF50?style=for-the-badge&logo=api&logoColor=white)** AwesomeAPI
+- **![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)** Python
+
 
 ### Funcionalidades Principais:
 
@@ -35,3 +36,4 @@ Este é um projeto simples para buscar a cotação de moedas utilizando uma API 
        except:
            print('Código de moeda inválido')
            return None
+    ```
